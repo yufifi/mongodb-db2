@@ -1,0 +1,5 @@
+# Usa a imagem oficial do MongoDB
+FROM mongo:latest
+
+# Comando para iniciar o MongoDB
+CMD ["mongod"]
