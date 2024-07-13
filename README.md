@@ -4,11 +4,11 @@ Este repositório contém um Dockerfile para criar uma imagem Docker do MongoDB.
 
 ## Como utilizar
 
-Caso não tenha o docker instalado execute o script "instalar_docker.sh" utilizando o comando:
+Execute o script "instalar_docker.sh" utilizando o comando a seguir para instalar o docker e outras dependências necessárias:
 
 - $ ./instalar_docker.sh
 
 
-Caso possua o docker instalado execute o script "configurar_mongodb_container.sh" utilizando o comando:
+Execute o script "configurar_mongodb_container.sh" utilizando o comando a seguir para criar e configura o container do MongoDB:
 
 - $ ./configurar_mongodb_container.sh
