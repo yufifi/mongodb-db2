@@ -20,6 +20,7 @@
 > - docker-ce
 > - docker-ce-cli
 > - containerd.io
+> - Bash
 
 ## Instalação do container e dependências
 
