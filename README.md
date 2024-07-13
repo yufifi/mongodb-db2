@@ -1,8 +1,24 @@
 # Docker MongoDB
 
-- Este repositório contém um Dockerfile para criar uma imagem Docker do MongoDB.
+- Este repositório contém um Dockerfile para criar uma imagem Docker do MongoDB para o Debian 12.
 
 ![PNG da logo do docker.](https://upload.wikimedia.org/wikipedia/commons/e/ea/Docker_%28container_engine%29_logo_%28cropped%29.png)
+
+> [!IMPORTANT]
+> As dependências que foram utilizadas no projeto são:
+> - Mongo
+> - Python 3.11
+> - Pip 23.3.2
+> - PyMongo 4.8.0
+> - GitHub CLI
+> - apt-transport-https software-properties-common
+> - ca-certificates
+> - curl
+> - gnupg
+> - gh
+> - docker-ce
+> - docker-ce-cli
+> - containerd.io
 
 ## Instalação do container e dependências
 
