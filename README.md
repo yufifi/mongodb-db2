@@ -42,4 +42,3 @@ $ sudo docker ps
 ```bash
 $ sudo docker exec -it mongodb-container /bin/bash
 ```
-
