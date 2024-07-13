@@ -4,7 +4,7 @@
 
 ![PNG da logo do docker.](https://upload.wikimedia.org/wikipedia/commons/e/ea/Docker_%28container_engine%29_logo_%28cropped%29.png)
 
-## Instalação do container e dependências\
+## Instalação do container e dependências
 
 - Execute o script "instalar_docker.sh" utilizando o comando a seguir para instalar o docker e outras dependências necessárias:
 ```bash
@@ -16,7 +16,7 @@ $ ./instalar_docker.sh
 $ ./configurar_mongodb_container.sh
 ```
 
-### Como utilizar\
+### Como utilizar
 
 - Para iniciar o container utilize o comando abaixo:
 ```bash
