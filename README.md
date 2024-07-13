@@ -8,6 +8,7 @@ Caso não tenha o docker instalado execute o script "instalar_docker.sh" utiliza
 
 - $ ./instalar_docker.sh
 
+
 Caso possua o docker instalado execute o script "configurar_mongodb_container.sh" utilizando o comando:
 
 - $ ./configurar_mongodb_container.sh
