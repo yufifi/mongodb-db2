@@ -1,6 +1,7 @@
 # Docker MongoDB
 
 ![PNG da logo do docker.](https://logopng.com.br/logos/docker-27.png)
+
 Este repositório contém um Dockerfile para criar uma imagem Docker do MongoDB.
 
 ## Como utilizar
