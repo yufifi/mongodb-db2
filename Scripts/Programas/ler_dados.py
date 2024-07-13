@@ -15,17 +15,14 @@ def ler_dados(parametros):
 
         inicio = time.time()
 
-        # Obtém todos os documentos da coleção 
+        # Obtém todos os documentos da coleção
         pessoas = collection.find()
 
         fim = time.time()
         tempo_total = fim - inicio
 
-        # Imprimir os dados
-        for pessoa in pessoas:
-            print(pessoa)
-
         print(f'Tempo de execução: {tempo_total:.5f} segundos.')
+	print(f'{len(dados)} documentos foram lidos.')
 
     except errors.ServerSelectionTimeoutError as err:
         print(f"Erro de conexão com o servidor MongoDB: {err}")
@@ -33,7 +30,7 @@ def ler_dados(parametros):
         print(f"Ocorreu um erro ao acessar o MongoDB: {err}")
     except Exception as err:
         print(f"Ocorreu um erro inesperado: {err}")
-        
+
     finally:
         # Fechar a conexão, se a conexão foi estabelecida
         if 'client' in locals():
