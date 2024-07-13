@@ -5,7 +5,7 @@
 ![PNG da logo do docker.](https://upload.wikimedia.org/wikipedia/commons/e/ea/Docker_%28container_engine%29_logo_%28cropped%29.png)
 
 > [!IMPORTANT]
-> As dependências que foram utilizadas no projeto são:
+> *As dependências que foram utilizadas no projeto são:*
 > - Mongo
 > - Python 3.11
 > - Pip 23.3.2
