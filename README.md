@@ -2,7 +2,7 @@
 
 Este repositório contém um Dockerfile para criar uma imagem Docker do MongoDB.
 
-![PNG da logo do docker.](https://logopng.com.br/logos/docker-27.png))
+![PNG da logo do docker.](https://logopng.com.br/logos/docker-27.png)
 
 ## Como utilizar
 
