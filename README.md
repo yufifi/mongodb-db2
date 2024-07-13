@@ -11,9 +11,10 @@
 > - Pip 23.3.2
 > - PyMongo 4.8.0
 > - GitHub CLI
-> - apt-transport-https software-properties-common
+> - apt-transport-https
 > - ca-certificates
 > - curl
+> - software-properties-common
 > - gnupg
 > - gh
 > - docker-ce
