@@ -33,25 +33,25 @@ $ ./configurar_mongo_docker.sh
 
 - Para iniciar o container utilize o comando abaixo:
 ```bash
-$ sudo docker start mongodb-container
+sudo docker start mongodb-container
 ```
 
 - Para interromper o container utilize o comando abaixo:
 ```bash
-$ sudo docker stop mongodb-container
+sudo docker stop mongodb-container
 ```
 
 - Para remover o container utilize o comando abaixo:
 ```bash
-$ sudo docker rm mongodb-container
+sudo docker rm mongodb-container
 ```
 
 - Para visualizar os containers utilize o comando abaixo:
 ```bash
-$ sudo docker ps
+sudo docker ps
 ```
 
 - Para acessar o terminal do container utilize o comando abaixo:
 ```bash
-$ sudo docker exec -it mongodb-container /bin/bash
+sudo docker exec -it mongodb-container /bin/bash
 ```
