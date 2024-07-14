@@ -29,7 +29,7 @@
 $ ./configurar_mongo_docker.sh
 ```
 
-### Como utilizar
+### Como utilizar o docker
 
 - Para iniciar o container utilize o comando abaixo:
 ```bash
