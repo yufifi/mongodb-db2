@@ -26,7 +26,7 @@
 
 - Execute o script "configurar_mongo_docker.sh" utilizando o comando a seguir para instalar o docker e outras dependências necessárias juntamente com a criação e configuração do container:
 ```bash
-$ ./configurar_mongo_docker.sh
+./configurar_mongo_docker.sh
 ```
 
 ### Como utilizar o docker
