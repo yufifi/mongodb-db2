@@ -38,12 +38,12 @@ if ! command -v docker &> /dev/null; then
     echo "Docker não está instalado."
 
     # Pergunta ao usuário se ele deseja instalar o Docker e continuar
-    read -p "Você deseja instalar o Docker e continuar com o script? (s/n): " resposta
+    read -p "Você deseja instalar o Docker com suas dependências e continuar com o script? (s/n): " resposta
 
     if [[ "$resposta" =~ ^[Ss]$ ]]; then
         install_docker
     else
-        echo "Dando continuidade a configuração do container..."
+        echo "Para dar prosseguimento a instalação é necessário que o docker e suas dependências sejam instaladas."
         exit 1
     fi
 fi
