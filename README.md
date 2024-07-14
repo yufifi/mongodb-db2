@@ -24,14 +24,9 @@
 
 ## Instalação do container e dependências
 
-- Execute o script "instalar_docker.sh" utilizando o comando a seguir para instalar o docker e outras dependências necessárias:
+- Execute o script "configurar_mongo_docker.sh" utilizando o comando a seguir para instalar o docker e outras dependências necessárias juntamente com a criação e configuração do container:
 ```bash
-$ ./instalar_docker.sh
-```
-
-- Execute o script "configurar_mongodb_container.sh" utilizando o comando a seguir para criar e configura o container do MongoDB:
-```bash
-$ ./configurar_mongodb_container.sh
+$ ./configurar_mongo_docker.sh
 ```
 
 ### Como utilizar
