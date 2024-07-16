@@ -1,17 +1,11 @@
 # Usar a imagem oficial do MongoDB
 FROM mongo:latest
 
-# Instalar Python e pip
-RUN apt-get update && apt-get install -y python3.11 python3-pip
-
 # Criar o diretório /app dentro do contêiner (opcional, se ele não existir)
 RUN mkdir /app
 
 # Copiar tudo da pasta "Programas" para o diretório "/app"
 COPY Programas /app
-
-# Instalar a biblioteca pymongo
-RUN pip3 install pymongo
 
 # Definir o diretório app como diretório de trabalho
 WORKDIR /app
